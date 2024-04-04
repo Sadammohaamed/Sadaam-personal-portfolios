@@ -1,0 +1,163 @@
+/* App.css */
+body {
+  width: 90%;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%; 
+  background-color: rgb(255, 240, 245);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Ku hay navbar-ka sare ee shaashadda */
+  width: 100%; /* Navbar-ka ha daboolo ballaca buuxa ee shaashadda */
+  top: 0; /* Deji meesha ugu sarreysa ee shaashadda */
+  z-index: 1000; /* Hubi in navbar-ka uu ka muuqdo waxyaabaha kale */
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-brand span {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand span:hover {
+  color: #0056b3;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+
+
+/* Main */
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+.profile-picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.info {
+  text-align: center;
+  margin: 2rem auto;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cursor-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cursor {
+  font-size: 2rem;
+  color: #555;
+  user-select: none;
+}
+
+.cursor-text {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.target h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.right-cursor .cursor {
+  transform: scaleX(-1); /* Flips the cursor for the right side */
+}
+
+
+
+.actions {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  margin: 2rem 0;
+}
+
+.actions p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.start-project-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-project-btn:hover {
+  background-color: #0056b3;
+}
+
+
